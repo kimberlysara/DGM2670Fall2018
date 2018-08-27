@@ -11,7 +11,9 @@ public class EventScript : MonoBehaviour
 		Event.Invoke();
 	}
 
-	
-	
+	private void OnTriggerEnter(Collider other)
+	{
+		Event.Invoke();
+	}
 }
 
