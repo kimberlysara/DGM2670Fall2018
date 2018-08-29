@@ -8,6 +8,7 @@
         <e p="Scripts" t="Include">
           <e p="EventsBasedBehavior" t="Include">
             <e p="DestroyEvent.cs" t="Include" />
+            <e p="DisableEvent.cs" t="Include" />
             <e p="MouseDownEvent.cs" t="Include" />
             <e p="TriggerEnterEvent.cs" t="Include" />
             <e p="UpdateEvent.cs" t="Include" />
