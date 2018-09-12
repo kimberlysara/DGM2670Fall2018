@@ -19,6 +19,5 @@ public class CharacterMovement : MonoBehaviour
 
 	void Update() {
 		Pattern.Invoke(controller, transform);
-	
 	}
 }

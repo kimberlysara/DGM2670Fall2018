@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 008521770eae4704ab6cc2fdfbeb7553, type: 3}
+  m_Name: Airplane
+  m_EditorClassIdentifier: 
+  jumpSpeed: {fileID: 11400000, guid: 92060d0c2ce5c794c8cf41702be344b2, type: 2}
+  gravity: {fileID: 11400000, guid: c537b52f200019a49ab6b815d92d1f22, type: 2}
+  MoveX: {fileID: 11400000, guid: 38541561c68a94444a03bcbc1d15a9ce, type: 2}
+  MoveY: {fileID: 11400000, guid: 92060d0c2ce5c794c8cf41702be344b2, type: 2}
+  MoveZ: {fileID: 11400000, guid: e099374fbd29697458c0821bf5075126, type: 2}
+  RotX: {fileID: 11400000, guid: 18fc163510b90c44aaf87f5ace1fc58f, type: 2}
+  RotY: {fileID: 11400000, guid: 92060d0c2ce5c794c8cf41702be344b2, type: 2}
+  RotZ: {fileID: 11400000, guid: 92060d0c2ce5c794c8cf41702be344b2, type: 2}
