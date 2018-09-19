@@ -14,7 +14,7 @@ public class AIAgent : MonoBehaviour
     
     private void Start()
     {
-        agent = GetComponent<>();
+        agent = GetComponent<NavMeshAgent>();
         agent.speed = Speed.Value;
         agent = GetComponent<NavMeshAgent>();
         finalDestinaiton = transform;
