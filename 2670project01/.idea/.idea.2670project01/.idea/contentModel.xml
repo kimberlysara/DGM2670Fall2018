@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\10808778\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_2670project01.-1546699502.00" t="ExcludeRecursive" />
-    <e p="C:\Users\10808778\Documents\Repos\DGM2670Fall2018\2670project01" t="IncludeRecursive">
+    <e p="C:\Users\Kimberly\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Kimberly\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_2670project01.-1267574751.00" t="ExcludeRecursive" />
+    <e p="E:\Repos\DGM2670Fall2018\2670project01" t="IncludeRecursive">
       <e p="2670project01.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -21,13 +22,12 @@
           <e p="FloatBool.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="FloatInput.cs" t="Include" />
-          <e p="ForEachLoops.cs" t="Include" />
+          <e p="ForEachLoop.cs" t="Include" />
           <e p="MovePattern.cs" t="Include" />
           <e p="MovePatternDual.cs" t="Include" />
           <e p="MovePatternNotGrounded.cs" t="Include" />
           <e p="NewEvent.cs" t="Include" />
           <e p="PrefabData.cs" t="Include" />
-          <e p="RunCountdown.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
