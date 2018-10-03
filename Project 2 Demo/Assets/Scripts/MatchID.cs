@@ -1,22 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.Serialization.Formatters;
+using System.Security.Permissions;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.EventSystems;
 
-public class TriggerID : MonoBehaviour
+public class MatchID : MonoBehaviour
 {
 
 	public NameID ID;
 	public UnityEvent OnMatch;
 
-	private void OnTriggerEnter(Collider obj)
+	public void Invoke(NameID id)
 	{
-		if (ID == obj.GetComponent<ObjectID>().ID)
+		if (id == ID)
 		{
 			OnMatch.Invoke();
-			print("Match");
 		}
 	}
 }
