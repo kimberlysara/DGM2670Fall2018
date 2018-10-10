@@ -5,9 +5,11 @@ using UnityEngine;
 public class Draggable : MonoBehaviour
 {
 
-	private Vector3 currentPosition;
+	private Vector3 offsetPosition;
 	private Vector3 newPosition;
 	private Camera cam;
+
+	public bool CanDrag;
 	
 	void Start ()
 	{
@@ -15,17 +17,23 @@ public class Draggable : MonoBehaviour
 		
 	}
 
-	private void OnMouseDown()
+	public IEnumerator OnMouseDown()
 	{
-		currentPosition = transform.position - cam.ScreenToWorldPoint(Input.mousePosition);
+		offsetPosition = transform.position - cam.ScreenToWorldPoint(Input.mousePosition);
+		yield return new WaitForSeconds();
+		CanDrag = true;
+		while (CanDrag)
+		{
+			yield return new WaitForSeconds();
+			newPosition = cam.ScreenToWorldPoint(Input.mousePosition) + offsetPosition;
+			transform.position = newPosition;
+		}
 	}
 
 
 	void OnMouseDrag ()
-	 {
-		 newPosition = cam.ScreenToWorldPoint(Input.mousePosition);
-		 newPosition.z = 0;
-		 transform.position = newPosition;
-	 }
+	{
+		CanDrag = false;
+	}
 
 }
