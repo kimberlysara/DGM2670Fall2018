@@ -1,0 +1,9 @@
+[submodule "Project 2 Demo\\Assets\\"]
+	path = Project 2 Demo\\Assets\\
+	url = https://github.com/Unity-Technologies/NavMeshComponents.git
+[submodule "Project 2 Demo/Assets/"]
+	path = Project 2 Demo/Assets/
+	url = https://github.com/Unity-Technologies/NavMeshComponents.git
+[submodule "NavMeshComponents"]
+	path = NavMeshComponents
+	url = https://github.com/Unity-Technologies/NavMeshComponents.git
