@@ -20,11 +20,11 @@ public class Draggable : MonoBehaviour
 	public IEnumerator OnMouseDown()
 	{
 		offsetPosition = transform.position - cam.ScreenToWorldPoint(Input.mousePosition);
-		yield return new WaitForSeconds();
+		yield return new WaitForSeconds(1);
 		CanDrag = true;
 		while (CanDrag)
 		{
-			yield return new WaitForSeconds();
+			yield return new WaitForSeconds(1);
 			newPosition = cam.ScreenToWorldPoint(Input.mousePosition) + offsetPosition;
 			transform.position = newPosition;
 		}
