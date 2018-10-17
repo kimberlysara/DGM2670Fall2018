@@ -11,7 +11,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CharacterMovement.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CharacterMovement.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -26,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RunCountdown.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RunCountdown.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/RunCountdown.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -109,7 +109,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/AIAgent.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding>
                 <marker date="1537397783835" expanded="false" signature="6:76" ph="..." />
                 <marker date="1537397783835" expanded="true" signature="156:873" ph="{...}" />
@@ -204,7 +204,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DisableEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatBool.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MovePatternNotGrounded.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MovePattern.cs" />
@@ -212,6 +211,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/RunCountdown.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ForEachLoops.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AIAgent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" />
       </list>
     </option>
   </component>
@@ -233,7 +233,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
@@ -250,16 +249,12 @@
               <item name="New Unity Project" type="483dac07:UnityExplorerNode$Root" />
               <item name="" type="1045f7f1:UnityExplorerNode" />
             </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="New Unity Project" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,11 +303,13 @@
       <workItem from="1537383950014" duration="82000" />
       <workItem from="1537384527093" duration="3556000" />
       <workItem from="1537397745134" duration="775000" />
+      <workItem from="1537816579302" duration="1119000" />
+      <workItem from="1537988446371" duration="1030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27269000" />
+    <option name="totallyTimeSpent" value="29418000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -334,7 +331,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27913278" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2872629" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -692,19 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-          <folding>
-            <marker date="1536779727082" expanded="false" signature="6:78" ph="..." />
-            <marker date="1536779727082" expanded="true" signature="175:398" ph="{...}" />
-            <marker date="1536779727082" expanded="true" signature="276:334" ph="{...}" />
-            <marker date="1536779727082" expanded="true" signature="351:396" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ForEachLoops.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -764,7 +748,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/AIAgent.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding>
             <marker date="1537397783835" expanded="false" signature="6:76" ph="..." />
             <marker date="1537397783835" expanded="true" signature="156:873" ph="{...}" />
@@ -785,6 +769,19 @@
             <marker date="1537385793624" expanded="true" signature="143:426" ph="{...}" />
             <marker date="1537385793624" expanded="true" signature="190:424" ph="{...}" />
             <marker date="1537385793624" expanded="true" signature="267:362" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+          <folding>
+            <marker date="1536779727082" expanded="false" signature="6:78" ph="..." />
+            <marker date="1536779727082" expanded="true" signature="175:398" ph="{...}" />
+            <marker date="1536779727082" expanded="true" signature="276:334" ph="{...}" />
+            <marker date="1536779727082" expanded="true" signature="351:396" ph="{...}" />
           </folding>
         </state>
       </provider>
