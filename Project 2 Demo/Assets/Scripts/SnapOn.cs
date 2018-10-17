@@ -5,7 +5,7 @@ using UnityEngine;
 public class SnapOn : MonoBehaviour
 {
     private Vector3 position;
-    public float Speed;
+    public FloatData Speed;
 
     private void OnTriggerEnter(Collider other)
     {
