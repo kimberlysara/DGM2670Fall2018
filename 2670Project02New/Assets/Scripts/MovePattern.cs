@@ -18,6 +18,13 @@ public class MovePattern : ScriptableObject {
 		{
 			Move(transform);
 		}
+		else
+		{
+			moveDirection.x = MoveX.Value;
+			moveDirection.z = MoveZ.Value;
+			rotDirection.Set(RotX.Value, RotY.Value, RotZ.Value);
+			moveDirection = transform.TransformDirection(moveDirection);
+		}
 
 		Move(controller);
 	}

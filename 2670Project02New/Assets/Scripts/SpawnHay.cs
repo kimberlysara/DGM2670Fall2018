@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
-public class Candy : MonoBehaviour
-{
+public class SpawnHay : MonoBehaviour {
 
 	public GameObject CandyObject;
 	public int maxCount = 4;
@@ -14,6 +12,7 @@ public class Candy : MonoBehaviour
 	public float xMin;
 	public float xMax;
 	public GameObject Player;
+	public List<GameObject> BlockObjects;
 	
 	
 	void Start () {
@@ -29,22 +28,25 @@ public class Candy : MonoBehaviour
 			}
 		}
 	}
-	void SpawnRandom (){
+	
+	
+	void SpawnRandom ()
+	{
+
+		var RandomNum = Random.Range(0, 7);
+		
+		
 		if (GameObject.FindGameObjectsWithTag("Candy").Length < maxCount) {
-			float x = Random.Range (xMin, xMax);
+			
 			position = Player.transform.position;
 			position.y += 10;
-			position.x = x;
+			position.x = BlockObjects[RandomNum].transform.position.x;
 			Instantiate (CandyObject, position, CandyObject.transform.rotation);
 			
 			
 		}
 		
-	
-		
 		
 		
 	}
-
-	
 }
