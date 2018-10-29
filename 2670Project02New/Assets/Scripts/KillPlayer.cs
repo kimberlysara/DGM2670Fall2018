@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class KillPlayer : MonoBehaviour {
 	private void OnTriggerEnter(Collider other)
 	{
-		if (other.gameObject.CompareTag("Respawn"))
+		if (other.gameObject.CompareTag("PlayerKill"))
 		{
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
 		}

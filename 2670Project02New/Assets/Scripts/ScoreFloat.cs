@@ -5,5 +5,6 @@ using UnityEngine;
 public class ScoreFloat : ScriptableObject
 {
 	public int Score;
+	public int ScoreTotal;
 
 }
