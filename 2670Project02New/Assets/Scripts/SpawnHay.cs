@@ -5,9 +5,10 @@ using UnityEngine;
 public class SpawnHay : MonoBehaviour {
 
 	public GameObject CandyObject;
+	public DifficultyFloat Spawn;
 	public int maxCount = 4;
-	public float spawnTimer;
-	public float spawnRate;
+	//public float spawnTimer;
+	//public float spawnRate;
 	private Vector3 position;
 	public float xMin;
 	public float xMax;
@@ -20,11 +21,11 @@ public class SpawnHay : MonoBehaviour {
 		
 	}
 	void Update (){
-		if (spawnTimer >= 0) {
-			spawnTimer -= Time.deltaTime;
-			if (spawnTimer <= 0) {
+		if (Spawn.spawnTimer >= 0) {
+			Spawn.spawnTimer -= Time.deltaTime;
+			if (Spawn.spawnTimer <= 0) {
 				SpawnRandom();
-				spawnTimer = spawnRate; 
+				Spawn.spawnTimer = Spawn.spawnRate; 
 			}
 		}
 	}

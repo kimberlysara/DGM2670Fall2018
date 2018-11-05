@@ -6,6 +6,7 @@ using UnityEngine;
 public class CandyPoints : MonoBehaviour
 {
 	public ScoreFloat score;
+	
 	//public ScoreFloat TotalScore;
 	
 	

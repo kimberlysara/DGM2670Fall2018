@@ -13,6 +13,8 @@
           <e p="CandyPoints.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
           <e p="DestroyThisObject.cs" t="Include" />
+          <e p="DifficultyFloat.cs" t="Include" />
+          <e p="DifficultyIncrease.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="FloatInput.cs" t="Include" />
           <e p="KillPlayer.cs" t="Include" />
