@@ -825,7 +825,7 @@ GameObject:
   - component: {fileID: 940612868}
   - component: {fileID: 940612867}
   m_Layer: 5
-  m_Name: Buy (2)
+  m_Name: Buy1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -888,7 +888,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 940612868}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: f35ec262b8afa634da26376530c61cbf, type: 2}
+        m_MethodName: MakePurchase
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 94ca5072b25131140baa0ed0a035b132,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: PurchasableObject, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &940612868
@@ -1263,7 +1275,7 @@ GameObject:
   - component: {fileID: 1385308934}
   - component: {fileID: 1385308933}
   m_Layer: 5
-  m_Name: Buy
+  m_Name: Buy2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1691,7 +1703,7 @@ GameObject:
   - component: {fileID: 1707818238}
   - component: {fileID: 1707818237}
   m_Layer: 5
-  m_Name: Buy (1)
+  m_Name: Buy3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

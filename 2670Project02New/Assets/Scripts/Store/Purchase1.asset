@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: Purchase1
   m_EditorClassIdentifier: Assembly-CSharp::PurchasableObject
-  Item: {fileID: 21300006, guid: be6c4dd257b83c5419da828d6a80ac41, type: 3}
+  Item: {fileID: 0}
   Value: 300
