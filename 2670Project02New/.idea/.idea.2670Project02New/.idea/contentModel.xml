@@ -27,6 +27,7 @@
           <e p="ScoreFloat.cs" t="Include" />
           <e p="SpawnHay.cs" t="Include" />
           <e p="Store" t="Include">
+            <e p="ChangeSkin.cs" t="Include" />
             <e p="Objects.cs" t="Include" />
             <e p="PurchasableObjects.cs" t="Include" />
             <e p="Store.cs" t="Include" />
