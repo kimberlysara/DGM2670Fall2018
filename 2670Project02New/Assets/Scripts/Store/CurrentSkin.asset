@@ -8,8 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: Purchase1
-  m_EditorClassIdentifier: Assembly-CSharp::PurchasableObject
-  Item: {fileID: 0}
-  Value: 300
+  m_Script: {fileID: 11500000, guid: a80d6420547b6b74a8da42453070a3f9, type: 3}
+  m_Name: CurrentSkin
+  m_EditorClassIdentifier: 
+  Pumpkin: {fileID: 1556012495129640, guid: bc66d94fc92fb4a45a9b33f15556342e, type: 2}

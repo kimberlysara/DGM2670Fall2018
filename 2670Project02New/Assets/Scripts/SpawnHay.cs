@@ -12,7 +12,7 @@ public class SpawnHay : MonoBehaviour {
 	private Vector3 position;
 	public float xMin;
 	public float xMax;
-	public GameObject Player;
+	public FloatObject Player;
 	public List<GameObject> BlockObjects;
 	
 	
@@ -39,7 +39,7 @@ public class SpawnHay : MonoBehaviour {
 		
 		if (GameObject.FindGameObjectsWithTag("Candy").Length < maxCount) {
 			
-			position = Player.transform.position;
+			position = Player.Pumpkin.transform.position;
 			position.y += 10;
 			position.x = BlockObjects[RandomNum].transform.position.x;
 			Instantiate (CandyObject, position, CandyObject.transform.rotation);

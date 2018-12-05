@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class TotalScore : MonoBehaviour
 {
 
-	public ScoreFloat ScoreTotal;
 	public ScoreFloat score;
 	public Text display;
 	//public Text TotalScoreDisplay;

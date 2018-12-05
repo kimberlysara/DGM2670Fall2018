@@ -17,6 +17,7 @@
           <e p="DifficultyIncrease.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="FloatInput.cs" t="Include" />
+          <e p="InstantiateObject.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="KillPlayer.cs" t="Include" />
           <e p="MovePattern.cs" t="Include" />
@@ -28,10 +29,8 @@
           <e p="SpawnHay.cs" t="Include" />
           <e p="Store" t="Include">
             <e p="ChangeSkin.cs" t="Include" />
-            <e p="Objects.cs" t="Include" />
-            <e p="PurchasableObjects.cs" t="Include" />
-            <e p="Store.cs" t="Include" />
-            <e p="StoreScript.cs" t="Include" />
+            <e p="FloatObject.cs" t="Include" />
+            <e p="StoreFront.cs" t="Include" />
           </e>
           <e p="TotalScore.cs" t="Include" />
         </e>
